@@ -1,0 +1,36 @@
+{
+	"name": "Json2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "sample_logs1.json",
+				"fileSystem": "anandcontainer2"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"timestamp": {
+					"type": "string"
+				},
+				"server_id": {
+					"type": "string"
+				},
+				"log_level": {
+					"type": "string"
+				},
+				"message": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

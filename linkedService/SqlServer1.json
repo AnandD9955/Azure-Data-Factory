@@ -1,0 +1,21 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-NFG5M46",
+			"database": "sql_database_to_blob_storage",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "Windows",
+			"userName": "DESKTOP-NFG5M46\\dell",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyOTE1ZjQ0Ny1lODA4LTQxZjQtOWU5MS0xODllZjhiNWM1YmIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "localhost",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "task4SinkDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "inputEmp",
+			"table": "txt"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

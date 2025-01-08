@@ -1,0 +1,24 @@
+{
+	"name": "trigger10",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Anand-6-using script schedule every 2 min",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 1,
+				"startTime": "2025-01-07T21:42:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

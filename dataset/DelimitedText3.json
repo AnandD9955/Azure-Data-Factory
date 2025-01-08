@@ -1,0 +1,72 @@
+{
+	"name": "DelimitedText3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "BigMart Sales (1).csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "{\"Item_Identifier\":\"FDA15\"",
+				"type": "String"
+			},
+			{
+				"name": "\"Item_Weight\":\"9.3\"",
+				"type": "String"
+			},
+			{
+				"name": "\"Item_Fat_Content\":\"Low Fat\"",
+				"type": "String"
+			},
+			{
+				"name": "\"Item_Visibility\":\"0.016047301\"",
+				"type": "String"
+			},
+			{
+				"name": "\"Item_Type\":\"Dairy\"",
+				"type": "String"
+			},
+			{
+				"name": "\"Item_MRP\":\"249.8092\"",
+				"type": "String"
+			},
+			{
+				"name": "\"Outlet_Identifier\":\"OUT049\"",
+				"type": "String"
+			},
+			{
+				"name": "\"Outlet_Establishment_Year\":\"1999\"",
+				"type": "String"
+			},
+			{
+				"name": "\"Outlet_Size\":\"Medium\"",
+				"type": "String"
+			},
+			{
+				"name": "\"Outlet_Location_Type\":\"Tier 1\"",
+				"type": "String"
+			},
+			{
+				"name": "\"Outlet_Type\":\"Supermarket Type1\"",
+				"type": "String"
+			},
+			{
+				"name": "\"Item_Outlet_Sales\":\"3735.138\"}",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

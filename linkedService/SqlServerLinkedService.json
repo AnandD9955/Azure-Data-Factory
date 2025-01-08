@@ -1,0 +1,21 @@
+{
+	"name": "SqlServerLinkedService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-NFG5M46",
+			"database": "master",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "Windows",
+			"userName": "DESKTOP-NFG5M46\\dell",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhN2NiNzdkOS01MmJkLTQ3YmQtOTdmMS0wZjVlMWVlYzVmYzIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "localhost",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

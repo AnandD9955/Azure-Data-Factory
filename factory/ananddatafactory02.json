@@ -1,0 +1,9 @@
+{
+	"name": "ananddatafactory02",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f8d1f1a9-de03-4dc0-92d3-b006fdbadd09",
+		"tenantId": "818467cf-44b9-45a5-a41a-1ef924fcd795"
+	}
+}
